@@ -4,6 +4,6 @@ class Sancho:
         self.age = age
 
     def __str__(self):
-        return f'my friend is {self.name}, hi is {self.age} age'
+        return f'my friend is {self.name}, he is {self.age} age'
 sancho = Sancho('Santina', 17)
 print(sancho)
